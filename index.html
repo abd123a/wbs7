@@ -1,0 +1,89 @@
+بالطبع، سنقوم بتعديل الرمز لتحميله على GitHub. هنا الرمز المحدث:
+
+### ملف HTML - `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع المزاد</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-gray-900 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-white text-lg font-semibold">موقع المزاد</h1>
+            <nav>
+                <ul class="flex text-gray-300">
+                    <li class="mx-2"><a href="#">الرئيسية</a></li>
+                    <li class="mx-2"><a href="#">تسجيل الدخول</a></li>
+                    <li class="mx-2"><a href="#">تسجيل جديد</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-gray-700 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">مرحبا بك في موقع المزاد</h2>
+            <p class="text-xl">اكتشف منتجات مميزة وشارك في المزايدات الرائعة</p>
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded mt-8">ابدأ الآن</button>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">المنتجات المميزة</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Product Cards will go here -->
+                <div class="product-card bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="product1.jpg" alt="Product 1" class="w-full">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold mb-2">منتج رائع</h3>
+                        <p class="text-gray-700 mb-2">وصف قصير للمنتج</p>
+                        <p class="text-gray-800 font-semibold">السعر: $100</p>
+                        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded mt-4 block w-full">مزايدة</button>
+                    </div>
+                </div>
+                <!-- Repeat product cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filters Section -->
+    <section class="search-filters bg-gray-100 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">ابحث عن منتجك المفضل</h2>
+            <div class="flex justify-center items-center">
+                <input type="text" placeholder="ابحث عن منتج..." class="px-4 py-2 border border-gray-300 rounded mr-4">
+                <select class="px-4 py-2 border border-gray-300 rounded mr-4">
+                    <option>الفئة</option>
+                    <option>الكترونيات</option>
+                    <option>أثاث</option>
+                    <option>ملابس</option>
+                    <option>سيارات</option>
+                </select>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded">بحث</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Dashboard Section -->
+    <section class="user-dashboard py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">لوحة التحكم</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="user-card bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="user.jpg" alt="User" class="w-full">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold mb-2">محمد أحمد</h3>
+                        <p class="text-gray-700 mb-2">البريد الإلكتروني: example@example.com</p>
+                        <p class="text-gray-700 mb-2">الهاتف: +123456789</p>
+                        <p class="text-gray-700 mb-2">عنوان: القاهرة، مصر</p>
+                        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded
